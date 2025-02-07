@@ -1,0 +1,165 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+}
+
+header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: rgb(53, 47, 65);
+    color: white;
+}
+
+.header-link-container 
+{
+    gap: 2rem;
+    display: flex;
+}
+
+.header-link-container > a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.upper-section
+{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 47, 65);
+    color: white;
+}
+
+.upper-section button
+{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: 2px solid white;
+    background-color: rgb(53, 47, 65);
+    border-radius: .5rem;
+}
+
+.upper-section button:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.upper-section button:active
+{
+    background-color: rgb(39, 35, 48);
+}
+
+.placeholder-image
+{
+    background-color: rgb(123, 123, 123);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+}
+
+.center-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-row
+{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.information-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8rem;
+    text-align: center;
+}
+
+.placeholder-infomation-image
+{  
+    background-color: white;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(53, 47, 65);
+}
+
+.quote-section
+{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.signup-section
+{
+    color: white;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    background-color: rgb(53, 47, 65);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: .5rem;
+}
+
+.signup-section button
+{
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(53, 47, 65);
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+
+.signup-section button:hover
+{
+    opacity: .75;
+}
+
+.signup-section button:active
+{
+    opacity: .75;
+    background-color: rgb(39, 35, 48);
+}
